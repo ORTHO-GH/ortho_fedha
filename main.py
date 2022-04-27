@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import plotly.express as px
 
-st.set_page_config(page_icon='icon.png', page_title='Ortho Fedha', layout='wide')
+st.set_page_config(page_icon='assets/icon.png', page_title='Ortho Fedha', layout='wide')
 
 with st.sidebar:
     options = option_menu('Menu', ['Home', 'Markets', 'News'],
@@ -17,7 +17,7 @@ with st.sidebar:
 
 def home():
     ll, lb, bb = st.columns(3)
-    lb.image("logo.png")
+    lb.image("assets/logo.png")
     st.title(" ")
     st.title("Home")
     st.title(" ")
@@ -53,9 +53,9 @@ def home():
     st.markdown("<hr>", unsafe_allow_html=True)
     lll, llw, lwl, wll, www = st.columns(5)
     lll.write('Follow us on')
-    lll.image('twitter.png')
-    lll.image('facebook.png')
-    lll.image('instagram.png')
+    lll.image('assets/twitter.png')
+    lll.image('assets/facebook.png')
+    lll.image('assets/instagram.png')
 
 
 def markets():
