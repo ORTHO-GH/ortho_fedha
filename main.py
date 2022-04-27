@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import plotly.express as px
 
-st.set_page_config(page_icon='icon.png', page_title='Ortho  Fedha', layout='wide')
+st.set_page_config(page_icon='icon.png', page_title='Ortho Fedha', layout='wide')
 
 with st.sidebar:
     options = option_menu('Menu', ['Home', 'Markets', 'News'],
