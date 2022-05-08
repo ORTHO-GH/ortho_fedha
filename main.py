@@ -91,7 +91,7 @@ elif options == "News":
     #country = ll.selectbox("Select a country", ["Ghana 🇬🇭", "Nigeria 🇳🇬", "Egypt 🇪🇬", "South Africa 🇿🇦", "Algeria 🇩🇿", "Morocco 🇲🇦",
     #                                            "Kenya 🇰🇪", "Ethiopia 🇪🇹", "Ivory Coast 🇨🇮", "Angola 🇦🇴", "China 🇨🇳", "United States 🇺🇸 ",
     #                                            "Russia 🇷🇺"])
-    category = st.selectbox("Select a news category", ["Business", "Technology"])
+    category = st.selectbox("Select a news category", ["Business 🏛️", "Technology 💻"])
     query = True
 
     if query:
